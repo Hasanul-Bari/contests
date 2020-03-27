@@ -1,7 +1,0 @@
-LOD E 5
-LOD A 25
-ADD B E
-INC D
-CMP A B
-JCP 2
-HLT
