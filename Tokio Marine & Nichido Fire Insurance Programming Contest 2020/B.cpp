@@ -10,22 +10,26 @@ int main()
 {
     faster
 
-    int t,n;
+    ll a,b,v,w,t;
 
-    cin>>t;
+    cin>>a>>v>>b>>w>>t;
 
-    while(t--)
-    {
-        cin>>n;
+    ll d=abs(a-b);
 
-        while(n--)
-        {
+    ll dc=v-w;
 
-        }
-    }
+    if(dc<0)
+        dc=0;
 
+
+
+    if(dc*t>=d)
+        cout<<"YES"<<endl;
+    else
+        cout<<"NO"<<endl;
 
 
 
     return 0;
 }
+
