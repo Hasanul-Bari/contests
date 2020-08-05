@@ -1,2 +1,2 @@
-# My solutions to various online contests on different judges.
+# My solutions to various contests on different online judges.
 
