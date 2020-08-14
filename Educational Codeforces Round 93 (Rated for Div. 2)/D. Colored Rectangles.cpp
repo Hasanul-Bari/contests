@@ -59,9 +59,6 @@ int main()
 
         //cout<<x<<" "<<y<<" "<<z<<endl;
 
-
-
-
         if(x>=z && y>=z && x!=-1 && y!=-1)
         {
             //cout<<"E1"<<endl;
@@ -90,8 +87,6 @@ int main()
     }
 
     cout<<s<<endl;
-
-
 
 
 
