@@ -2,5 +2,5 @@ moshiur==got
 https://vjudge.net/contest/214310
 
 
-mri==number theory,gcd,lcm
+munir vai==number theory,gcd,lcm
 https://vjudge.net/contest/211244
