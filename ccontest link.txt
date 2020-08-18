@@ -1,6 +1,0 @@
-moshiur==got
-https://vjudge.net/contest/214310
-
-
-munir vai==number theory,gcd,lcm
-https://vjudge.net/contest/211244
