@@ -18,8 +18,10 @@ int main()
     {
         cin>>a>>b;
 
-        if(a>b)
-            swap(a,b);
+        int x=(a+b)/3;
+        cout<<min(x,min(a,b))<<endl;
+
+
 
 
     }
