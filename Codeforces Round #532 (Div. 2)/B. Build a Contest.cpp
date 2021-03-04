@@ -6,25 +6,36 @@
 const double PI = acos(-1.0);
 using namespace std;
 
+int f[100009],a[100009];
+
 int main()
 {
     faster;
-    int n,m,x;
+    int n,m,t=1,x;
     cin>>n>>m;
-    set<int> a;
+
+
     for(int i=0; i<m; i++)
     {
         cin>>x;
-        a.insert(x);
 
-        if(a.size()==n)
+        f[x]++;
+
+
+        a[f[x]]++;
+
+        if(a[t]==n)
         {
             cout<<1;
-            a.clear();
+            t++;
+
         }
         else
             cout<<0;
     }
     cout<<endl;
+
+
+
     return 0;
 }
